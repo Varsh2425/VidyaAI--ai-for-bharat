@@ -9,7 +9,7 @@ VidyaAI is a curriculum-grounded multilingual AI learning platform designed to h
 - **VidyaAI_Platform**: The complete learning system including frontend, backend, and AI components
 - **AI_Tutor**: The RAG-powered conversational interface that answers student questions based on textbook content
 - **Student**: A user of the platform in Class 6-12
-- **Textbook_Content**: NCERT and State Board curriculum materials stored in the system
+- **Textbook_Content**:NCERT and State Board curriculum materials accessed via official sources and indexed for semantic retrieval.
 - **RAG_Pipeline**: Retrieval-Augmented Generation system combining semantic search with LLM responses
 - **Vector_Database**: Storage system for semantic embeddings of textbook content
 - **Chapter**: A unit of study within a subject textbook
