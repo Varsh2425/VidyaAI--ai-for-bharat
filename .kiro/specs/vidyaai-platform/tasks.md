@@ -14,8 +14,7 @@ The implementation uses:
 ## Tasks
 
 - [ ] 1. Set up project structure and database schema
-  - Create monorepo structure with backend, ai-service, and frontend directories
-  - Set up TypeScript configuration for backend and frontend
+  - Create project structure with frontend, serverless API functions, and AI processing components.”  - Set up TypeScript configuration       for backend and frontend
   - Set up Python environment for AI service
   - Create PostgreSQL database and run schema migrations
   - Set up Redis for caching
