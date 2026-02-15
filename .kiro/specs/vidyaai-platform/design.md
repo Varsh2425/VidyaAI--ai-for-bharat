@@ -4,7 +4,7 @@
 
 VidyaAI is a curriculum-grounded multilingual AI learning platform that transforms NCERT and State Board textbooks into an interactive learning experience. The platform uses Retrieval-Augmented Generation (RAG) to provide accurate, syllabus-aligned responses to student questions, combined with practice quizzes, study planning, and progress tracking.
 
-The system architecture follows a modern web application pattern with a React-based frontend, Node.js/Express backend API layer, Python-based RAG pipeline for AI processing, PostgreSQL for structured data, and a vector database (Pinecone or Weaviate) for semantic search.
+The system architecture follows a modern web application pattern with a React-based frontend,serverless-friendly backend API layer, combined with a Python-based AI processing pipeline for Retrieval-Augmented Generation (RAG).
 
 ## Architecture
 
@@ -21,8 +21,8 @@ graph TB
         Dashboard[Progress Dashboard]
     end
     
-    subgraph "Backend API Layer"
-        API[Express.js API Server]
+    subgraph Backend API Layer
+        Serverless API Functions (AWS Lambda-compatible)
         AuthService[Authentication Service]
         ContentService[Content Service]
         QuizService[Quiz Service]
