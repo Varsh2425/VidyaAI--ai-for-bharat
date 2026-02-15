@@ -5,7 +5,7 @@
 This implementation plan breaks down the VidyaAI platform into discrete, incremental coding tasks. The approach follows a layered architecture: first establishing the data layer and core services, then building the AI/RAG components, and finally integrating everything with the frontend. Each task builds on previous work, with testing integrated throughout to catch issues early.
 
 The implementation uses:
-- **Backend API**: Node.js with Express and TypeScript
+- **Backend API**: Serverless API layer compatible with AWS Lambda (Node.js runtime).
 - **AI/RAG Pipeline**: Python with FastAPI
 - **Frontend**: React with TypeScript
 - **Databases**: PostgreSQL for structured data, Pinecone/Weaviate for vector storage
